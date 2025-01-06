@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+img {
+    width:auto;
+    height:auto;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    text-align: center;
+}
+
+.search-input {
+    width: 500px;
+    height: 40px;
+    padding: 0 15px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    outline: none;
+    font-size: 16px;
+    box-shadow: none;
+}
+
+.search-input:hover {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.search-button {
+    display: none; 
+    width:auto;
+    height:20px;
+}
