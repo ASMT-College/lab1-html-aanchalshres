@@ -11,7 +11,7 @@
         
         <div class="search-container">
     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_120x44dp.png" alt="logo">
-    <form action="https://google.com/search" method="get">
+    <form action="submit.php" method="get">
         <input type="text" name="q" class="search-input" placeholder="Search...">
         <button type="submit" class="search-button">Search</button>
         <br><br>
