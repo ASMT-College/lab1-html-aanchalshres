@@ -9,7 +9,7 @@
 <body>
 <?php include 'servervalidate.php'; ?>
     <form id="myForm" action="form.php" method="post" onsubmit="return validateForm()">
-    <la>
+        <fieldset>
         <legend>My Form</legend>
         <label for="name">Name:</label><br>
         <input type="text" id="name" name="name" placeholder="Name">
